@@ -1,0 +1,74 @@
+body {
+    box-sizing: border-box;
+    margin: 20px;
+    font-size: 40px;
+    font-family: Tahoma;
+}
+
+.fiveBox1{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+}
+.fiveBox2{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+}
+.fiveBox3{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+}
+
+.fiveBox4{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+}
+
+.fiveBox5{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+}
+
+.SixBox{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.Box{
+    width: 100%;
+}
+
+.fiveBoxes{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin-left: 10px;
+}
+
+
+.fiveBox1:hover, .fiveBox2:hover,.fiveBox3:hover, .fiveBox4:hover,.fiveBox5:hover, .SixBox:hover{
+    background-color: yellow;
+    color: goldenrod;
+} 
